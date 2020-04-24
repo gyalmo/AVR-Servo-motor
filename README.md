@@ -8,11 +8,18 @@ An AVR code to control the servo motor .
 - Otherwise door will remain closed i.e, 0 degree. 
 
 # Servomotor
-A servomotor is a linear actuator or rotary actuator that allows for precise control of linear or angular position, acceleration, and velocity. It consists of a motor coupled to a sensor for position feedback. It also requires a relatively sophisticated controller, often a dedicated module designed specifically for use with servomotors.
-A servo motor (or servo motor) is a simple electric motor, controlled with the help of servomechanism. If the motor as a controlled device, associated with servomechanism is a DC motor, then it is commonly known as a DC Servo Motor. If AC operates the controlled motor, it is known as an AC Servo Motor.
+- A servomotor is a linear actuator or rotary actuator that allows for precise control of linear or angular position, acceleration, and velocity.
+- It consists of a motor coupled to a sensor for position feedback. 
+- It also requires a relatively sophisticated controller, often a dedicated module designed specifically for use with servomotors.
+- A servo motor (or servo motor) is a simple electric motor, controlled with the help of servomechanism. 
+- If the motor as a controlled device, associated with servomechanism is a DC motor, then it is commonly known as a DC Servo Motor.
+- If AC operates the controlled motor, it is known as an AC Servo Motor.
 
 # IR Sensor
-An infrared (IR) sensor is an electronic device that measures and detects infrared radiation in its surrounding environment. Infrared radiation was accidentally discovered by an astronomer named William Herchel in 1800. While measuring the temperature of each color of light (separated by a prism), he noticed that the temperature just beyond the red light was highest. IR is invisible to the human eye, as its wavelength is longer than that of visible light (though it is still on the same electromagnetic spectrum). Anything that emits heat (everything that has a temperature above around five degrees Kelvin) gives off infrared radiation.
+- An infrared (IR) sensor is an electronic device that measures and detects infrared radiation in its surrounding environment.  - Infrared radiation was accidentally discovered by an astronomer named William Herchel in 1800. 
+- While measuring the temperature of each color of light (separated by a prism), he noticed that the temperature just beyond the red light was highest.
+- IR is invisible to the human eye, as its wavelength is longer than that of visible light (though it is still on the same electromagnetic spectrum).
+- Anything that emits heat (everything that has a temperature above around five degrees Kelvin) gives off infrared radiation.
 
 # Calculations and Settings
 Consider a digital output IR sensor connected to PORTB pin0For SG90 servo motor as per datasheet :
